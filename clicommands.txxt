@@ -1,0 +1,3 @@
+C:\Users\Admin>az group create --name tf-backend-rg --location eastus
+C:\Users\Admin>az storage account create --name tfstatebackendfile1 --resource-group tf-backend-rg --sku Standard_LRS
+C:\Users\Admin>az storage container create --name tfstate1 --account-name tfstatebackendfile1
