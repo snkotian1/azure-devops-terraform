@@ -24,6 +24,4 @@ resource "azurerm_kubernetes_cluster" "aks" {
   }
 }
 
-provider "azurerm" {
-  features {}
-}
+
